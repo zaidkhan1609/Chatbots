@@ -22,17 +22,22 @@ Health_chatbot/ ├── main.py
 ## 🚀 Getting Started
 
 
-📦 1. Install Dependencies
+**📦 1. Install Dependencies**
 Create a virtual environment and install the required packages:
 
 pip install -r requirements.txt
 Or install manually:
 pip install streamlit langchain faiss-cpu sentence-transformers transformers
-📂 2. Add WHO PDFs
+
+
+**📂 2. Add WHO PDFs**
 Place your WHO guidelines (e.g., mhGAP, IPT, etc.) into:
 
 data/
-▶️ 3. Run the Chatbot
+
+
+
+**▶️ 3. Run the Chatbot**
 
 streamlit run main.py
 🧪 Example Questions
@@ -44,27 +49,35 @@ Are antidepressants safe during breastfeeding?
 
 What are the symptoms of severe depression?
 
-📚 Data Source
+
+
+**📚 Data Source**
 This chatbot is grounded on official WHO mental health guidelines, extracted from WHO-provided PDF manuals.
 
-🧠 Model Details
+
+
+**🧠 Model Details**
 Embeddings: sentence-transformers/all-MiniLM-L6-v2
 
 LLM: google/flan-t5-xl via HuggingFace pipeline
 
 Framework: LangChain + FAISS + Streamlit
 
-📌 Limitations
+
+**📌 Limitations**
 ❌ Does not browse the web or use external APIs.
 
 ❗ Answers are only as accurate as the content of the PDFs you load.
 
 ⚠️ Not a replacement for professional medical advice.
 
-🤝 Contributions
+
+**
+🤝 Contributions**
 Feel free to fork the project and suggest improvements via pull requests!
 
-📜 License
+
+**📜 License**
 This project is open-source under the MIT License.
 
 👤 Author
