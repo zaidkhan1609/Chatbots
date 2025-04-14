@@ -51,12 +51,12 @@ What are the symptoms of severe depression?
 
 
 
-**📚 Data Source**
+##**📚 Data Source**
 This chatbot is grounded on official WHO mental health guidelines, extracted from WHO-provided PDF manuals.
 
 
 
-**🧠 Model Details**
+##**🧠 Model Details**
 Embeddings: sentence-transformers/all-MiniLM-L6-v2
 
 LLM: google/flan-t5-xl via HuggingFace pipeline
@@ -64,7 +64,7 @@ LLM: google/flan-t5-xl via HuggingFace pipeline
 Framework: LangChain + FAISS + Streamlit
 
 
-**📌 Limitations**
+##**📌 Limitations**
 ❌ Does not browse the web or use external APIs.
 
 ❗ Answers are only as accurate as the content of the PDFs you load.
@@ -77,7 +77,7 @@ Framework: LangChain + FAISS + Streamlit
 Feel free to fork the project and suggest improvements via pull requests!
 
 
-**📜 License**
+##**📜 License**
 This project is open-source under the MIT License.
 
 👤 Author
