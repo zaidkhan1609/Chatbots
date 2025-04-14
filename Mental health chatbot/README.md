@@ -21,21 +21,18 @@ Health_chatbot/ ├── main.py
 
 ## 🚀 Getting Started
 
-### 🔧 1. Clone the Repo
 
-git clone https://github.com/zaidkhan1609/Mental health chatbot.git
-cd mental-health-rag-chatbot
-📦 2. Install Dependencies
+📦 1. Install Dependencies
 Create a virtual environment and install the required packages:
 
 pip install -r requirements.txt
 Or install manually:
 pip install streamlit langchain faiss-cpu sentence-transformers transformers
-📂 3. Add WHO PDFs
+📂 2. Add WHO PDFs
 Place your WHO guidelines (e.g., mhGAP, IPT, etc.) into:
 
 data/
-▶️ 4. Run the Chatbot
+▶️ 3. Run the Chatbot
 
 streamlit run main.py
 🧪 Example Questions
